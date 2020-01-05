@@ -1,2 +1,6 @@
-replicas: 1
-minimumMasterNodes: 1
+appVersion: 5.6.16
+image:
+  repository: docker.elastic.co/elasticsearch/elasticsearch
+  tag: 5.6.16
+# replicas: 1
+# minimumMasterNodes: 1
